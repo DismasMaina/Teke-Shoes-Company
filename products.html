@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop Teke Shoes - Browse our complete collection of men's, women's, and kids' premium footwear.">
+    <title>Shop Products - Teke Shoes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-icon">🔶</span>
+                        <span class="logo-text">Teke Shoes</span>
+                    </a>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Collection</h1>
+            <p>Discover premium footwear for every lifestyle</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <!-- Category Filter -->
+            <div class="category-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="mens">Men's</button>
+                <button class="filter-btn" data-filter="women's">Women's</button>
+                <button class="filter-btn" data-filter="kids">Kids</button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Men's Products -->
+                <div class="product-card" data-category="mens">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop" alt="Urban Runner Pro">
+                        <span class="badge-new">NEW</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Urban Runner Pro</h3>
+                        <p class="product-category">Men's</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="product-description">Lightweight performance running shoe with superior comfort</p>
+                        <div class="product-footer">
+                            <span class="price">$129.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="mens">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1542301097-01ed1be1c0f3?w=300&h=300&fit=crop" alt="Classic Comfort">
+                        <span class="badge-sale">SALE</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Comfort</h3>
+                        <p class="product-category">Men's</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-description">Timeless casual sneaker perfect for everyday wear</p>
+                        <div class="product-footer">
+                            <span class="price"><s>$99.99</s> $79.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="mens">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1555999990-472a4f5a0e4d?w=300&h=300&fit=crop" alt="Trail Explorer">
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Trail Explorer</h3>
+                        <p class="product-category">Men's</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-description">Rugged outdoor shoe designed for adventure seekers</p>
+                        <div class="product-footer">
+                            <span class="price">$139.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Women's Products -->
+                <div class="product-card" data-category="women's">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1543163521-ab539c36dd7d?w=300&h=300&fit=crop" alt="Elegance Stride">
+                        <span class="badge-sale">SALE</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Elegance Stride</h3>
+                        <p class="product-category">Women's</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-description">Elegant heels for every occasion with premium comfort</p>
+                        <div class="product-footer">
+                            <span class="price">$119.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="women's">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1552346154-5425766f2eda?w=300&h=300&fit=crop" alt="Fitness Flow">
+                        <span class="badge-new">NEW</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Fitness Flow</h3>
+                        <p class="product-category">Women's</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="product-description">Technical athletic shoe for gym and outdoor activities</p>
+                        <div class="product-footer">
+                            <span class="price">$119.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="women's">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1519624526275-5ed6c8b1f2b5?w=300&h=300&fit=crop" alt="Urban Chic">
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Urban Chic</h3>
+                        <p class="product-category">Women's</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-description">Stylish casual sneaker for city living and everyday adventures</p>
+                        <div class="product-footer">
+                            <span class="price">$109.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kids' Products -->
+                <div class="product-card" data-category="kids">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1525966222134-fcaf8a4d4fed?w=300&h=300&fit=crop" alt="Junior Adventure">
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Junior Adventure</h3>
+                        <p class="product-category">Kids</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-description">Durable kids' shoe built for active play and exploration</p>
+                        <div class="product-footer">
+                            <span class="price">$79.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="kids">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1539180556929-48e4aa29cc97?w=300&h=300&fit=crop" alt="Soccer Star">
+                        <span class="badge-sale">SALE</span>
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Soccer Star</h3>
+                        <p class="product-category">Kids</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-description">Performance soccer shoe for young athletes</p>
+                        <div class="product-footer">
+                            <span class="price"><s>$89.99</s> $69.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="kids">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1503895992062-96e9d0baf2b5?w=300&h=300&fit=crop" alt="Classroom Comfort">
+                        <div class="product-overlay">
+                            <button class="btn-icon" title="Add to Wishlist"><i class="fas fa-heart"></i></button>
+                            <button class="btn-icon" title="Quick View"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classroom Comfort</h3>
+                        <p class="product-category">Kids</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="product-description">Comfortable everyday school shoe for kids</p>
+                        <div class="product-footer">
+                            <span class="price">$74.99</span>
+                            <button class="btn btn-small">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Teke</h4>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="about.html">Our Mission</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="products.html">Men's Shoes</a></li>
+                        <li><a href="products.html">Women's Shoes</a></li>
+                        <li><a href="products.html">Kids' Shoes</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://tiktok.com" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Teke Shoes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
